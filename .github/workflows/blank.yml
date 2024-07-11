@@ -1,0 +1,29 @@
+Add the following CSS using Stylus extension. First go to Google Calendar month view. Then use extenstion to 'write new style'.
+
+Add this at the top:
+
+.w48V4c.F262Ye {
+  background-color: hsla(60, 100%, 50%, 0.5)!important;
+  padding: 70px !important;
+  border-radius: 0% !important;
+}
+
+.o5s4T .w48V4c.F262Ye {
+  color: black;
+  font-size: 2em;
+}
+
+Below, you'll see this (already in there) - Just leave it.
+
+/* ==UserStyle==
+@name           calendar.google.com/calendar/u/0/r - Jul 2024
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document url-prefix("https://calendar.google.com/calendar/u/0/r") {
+    /* Insert code here... */
+}
+
